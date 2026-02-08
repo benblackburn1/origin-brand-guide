@@ -264,8 +264,8 @@ npm start
 ```env
 NODE_ENV=production
 PORT=5000
-MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/brand-hub
-JWT_SECRET=very-long-random-secret-key
+MONGODB_URI=<your-mongodb-connection-string>
+JWT_SECRET=<your-jwt-secret>
 CLIENT_URL=https://yourdomain.com
 GCS_PROJECT_ID=your-project-id
 GCS_BUCKET_NAME=your-bucket-name
